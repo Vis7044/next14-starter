@@ -42,7 +42,7 @@ function Links() {
           <NavLink item={{ title: 'Login', path: '/login' }} />
         )}
       </div>
-      <button>Menu</button>
+      <button className={styles.menuButton} onClick={() => setOpen(!open)}>Menu</button>
       {
         open && <div className={styles.mobileLinks}>
           {links.map((link)=> (
