@@ -12,6 +12,14 @@ pnpm install
 bun install
 ```
 
+Add .env File
+
+MONGO = Your MongoDb connection url
+AUTH_SECRET=Secret key for next authentication
+AUTH_URL=http://localhost:3000/api/auth
+
+GITHUB_ID = Github authentication app id
+GITHUB_SECRET = Github secret key
 
 run the development server:
 
